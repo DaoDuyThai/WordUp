@@ -1,7 +1,7 @@
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Header } from "./header";
-import { UserProgress } from "@/components/user-progress";
+import {  UserProgress } from "@/components/user-progress";
 
 const LearnPage = () => {
     return (
@@ -11,7 +11,7 @@ const LearnPage = () => {
 
             </StickyWrapper>
             <FeedWrapper>
-                <Header title="Spanish" />
+                <Header title= "Spanish" />
             </FeedWrapper>
         </div>
     );
